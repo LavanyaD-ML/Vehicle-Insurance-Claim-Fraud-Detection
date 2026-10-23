@@ -1,0 +1,17 @@
+Insurance Claim Fraud Detection
+Hyperparameter Tuning Report
+
+Best Parameters: {'model__max_depth': 15, 'model__min_samples_split': 2, 'model__n_estimators': 200}
+Accuracy: 0.8197
+Precision: 0.5844
+Recall: 0.7371
+Macro F1: 0.5981
+
+              precision    recall  f1-score   support
+
+          no       0.97      0.83      0.90      2899
+         yes       0.20      0.64      0.30       185
+
+    accuracy                           0.82      3084
+   macro avg       0.58      0.74      0.60      3084
+weighted avg       0.93      0.82      0.86      3084
